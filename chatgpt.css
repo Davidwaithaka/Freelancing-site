@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
+    color: #333;
+}
+
+h2.center, h3.center {
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-item {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-item button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.service-item button:hover {
+    background: #555;
+}
+
+.testimonies {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.testimony-item {
+    text-align: left;
+    margin: 20px;
+}
+
+.testimony-item img {
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.footer {
+    background: grey;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    background:grey;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar .welcome-message {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.navbar .nav-buttons {
+    text-align:right;
+    flex: 1;
+    
+}
+
+.navbar .nav-buttons button {
+   
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.navbar .nav-buttons button:hover {
+    background: #777;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-style: italic;
+}

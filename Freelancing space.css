@@ -1,0 +1,50 @@
+body{
+    background-color:lightgrey;
+}
+.navbar{ 
+   display:block;
+    width: 100%;  
+    padding:10px;              
+    background-color:darkgray;
+    color:white;
+    
+                   
+}
+
+.services{              
+    
+    display:grid;
+    gap:40px;
+    width:500px;               
+              
+}
+
+.Testimonies {   
+    display:flex;
+          
+   gap:500px;
+    width:200px;                            
+    
+}
+
+img{
+    border-radius:40px;
+    margin:0 auto;
+}
+button{
+    background-color:green;
+}
+button:hover {
+color:green;
+background-color:white;
+
+}
+.footer{
+   margin-bottom: 0;
+   color:white;
+    position:bottom;
+    
+    background-color:green;
+    padding:5px;
+    
+}
