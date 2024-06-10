@@ -101,14 +101,8 @@ body {
     width: 45%;
     padding: 10px;
     border: 1px solid #ddd;
-  }
-  
-  .testimony-item img {
-    margin-bottom: 10px;
-    border-radius: 50%;
-  }
-  
-  /* Footer Styles */
+  }    
+   /* Footer Styles */
   .footer {
     background-color: #e9ecef;
     text-align: center;
